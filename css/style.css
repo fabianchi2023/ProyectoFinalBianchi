@@ -180,8 +180,8 @@ body {
   font-size: 1.5rem;
 }
 
-.footer a:visited {
-  color: #daa520;
+.footer a {
+  text-decoration: none;
 }
 
 .discos {
