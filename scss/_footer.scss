@@ -1,0 +1,44 @@
+ 
+ .footer {
+    grid-area: footer;
+    width: 100%;
+    height: 100px;
+    margin: 10px auto;
+    background: rgb(0,0,0);
+    background: linear-gradient(360deg, #000000 80%, $general 100%);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    border: solid $general 2px;
+  }
+  
+  .footer .redesSociales {
+    display: flex;
+  }
+  
+  .footer .redesSociales .rrss {
+    align-self: center;
+  }
+  
+  .footer .redesSociales .rrss img {
+    width: 30px;
+    background-color: $general;
+    border-radius: 30px;
+    border: solid 1px
+  }
+  
+  .footer .redesSociales .rrss img:hover {
+    border-radius: 10%;
+  }
+  
+  .footer h2 {
+    color: $general;
+    align-self: center;
+    margin: 10px;
+    font-size: 1.5rem;
+  }
+
+  .footer a{
+    text-decoration: none;
+    color: inherit;
+  }

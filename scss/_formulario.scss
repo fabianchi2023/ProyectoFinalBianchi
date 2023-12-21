@@ -1,0 +1,20 @@
+.formulario{
+    width: 50vw;
+    margin: 50px auto;
+    padding: 5px;
+    border: solid black 2px;
+    .campos {
+      display: flex;
+      font-size: 1.7rem;
+      text-decoration: underline;
+      margin: 5px auto;
+      justify-content: space-between;
+      width: auto;
+    }
+    .botonesForm {
+      display: flex;
+      justify-content: space-around;
+      margin: 10px auto;
+      font-size: 1.7rem;
+    }
+  }

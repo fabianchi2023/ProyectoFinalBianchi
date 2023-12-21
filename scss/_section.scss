@@ -1,0 +1,39 @@
+.section { 
+    grid-area: section;
+    background-color: whitesmoke;
+    opacity: 0.9;
+ }
+
+ .section {
+    background-color: #b4aeae;
+    border-radius: 20px;
+    border: solid $general 2.5px;
+    margin: 5px;
+    padding: 10px auto;
+    text-align: center;
+    opacity: 0.9;
+  }
+  
+  .section h2 {
+    padding: 10px;
+    text-decoration: underline;
+  }
+  
+  .section .giraEuropa img {
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .section .paisesEuropa {
+    margin: 10px;
+    padding: 0;
+  }
+  
+  .section .paisesEuropa li {
+    list-style-type: none;
+  }
+  .section .paisesEuropa img {
+    width: 50px;
+    text-align: center;
+  }

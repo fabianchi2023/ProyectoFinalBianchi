@@ -1,0 +1,47 @@
+.header { 
+    grid-area: header;
+ }
+  
+  .menu{
+    margin: 10px auto;
+    background: rgb(0,0,0);
+    background: linear-gradient(360deg, #000000 80%, $general 100%);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    border: solid $general 2px;
+}
+
+.menu .logoMenu img {
+    width: 85px;
+    height: 85px;
+    margin: 10px;
+    padding: 5px;
+    background-color: $general;
+    border-radius: 20px;
+}
+
+.navbar{
+    margin-right: 5px;
+    .container-fluid{
+        .navbar-toggler {
+            font-size: 50%;
+            height: auto;
+            background-color:$general;
+            border: 1px solid $general;
+        }
+        .navbar-nav li a{
+            color: $general;
+            font-size: 1.2rem;
+            border: solid $general 1px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .navbar-nav li a:hover{
+            color: black;
+            background-color: $general;
+            border-radius: 20px;
+            transition: 0.01s;
+        }
+    }
+}
